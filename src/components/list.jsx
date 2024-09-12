@@ -84,7 +84,7 @@ const List = () => {
   };
 
   return (
-    <div className="allSeasons">
+    <main className="allSeasons">
       {episodesDIsLoading ? (
         <span>Loading ...</span>
       ) : episodesDHasError ? (
@@ -132,7 +132,7 @@ const List = () => {
           </section>
         ))
       )}
-    </div>
+    </main>
   );
 };
 

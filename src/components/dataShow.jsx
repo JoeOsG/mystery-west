@@ -20,7 +20,7 @@ const DataShow = () => {
         <div>An error has occured.</div>
       ) : (
         <React.Fragment>
-          <section className="showDescription">
+          <main className="showDescription">
             <img src={imageShow} alt="show poster" className="showImage" />
             <div className="textDescription">
               <div
@@ -29,7 +29,7 @@ const DataShow = () => {
               ></div>
               <ShortList />
             </div>
-          </section>
+          </main>
         </React.Fragment>
       )}
     </React.Fragment>
